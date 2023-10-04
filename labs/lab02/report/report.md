@@ -98,7 +98,7 @@ header-includes:
 
 Основные команды и их описание:
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.001.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.001.png)
 
 Таблица 1
 
@@ -107,7 +107,7 @@ header-includes:
 
 Учётная запись GitHub у меня уже была, поэтому мне надо было просто зайти на сайт организации и авторизироваться. (Рис.1)
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.002.jpeg)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.002.jpeg)
 
 Рис.1 Аккаунт GitHub
 
@@ -115,19 +115,23 @@ header-includes:
 
 Для того, чтобы выполнить предварительную конфигурацию Git, в своей виртуальной машине открываю терминал и ввожу команду “git config –global user.name ‘<bmsolovjev>’”, а потом команду „git config –global user.email ‘<<bogdan034@outlook.com>>’” (рис.2).
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.003.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.003.png)
 
 Рис.2 Предварительная конфигурация Git
 
-Настраиваю utf-8 в выводе сообщений (рис.3).![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.004.png)
+Настраиваю utf-8 в выводе сообщений (рис.3).
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.004.png)
 
 Рис.3 Настройка кодировки utf-8
 
-Задаю имя «master» для начальной ветки (рис.4).![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.005.png)
+Задаю имя «master» для начальной ветки (рис.4).
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.005.png)
 
-Рис.4 Создание имени «master» для начальной ветки Задаю параметр autocrlf (рис.5).![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.006.png)
+Рис.4 Создание имени «master» для начальной ветки Задаю параметр autocrlf (рис.5).
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.006.png)
 
-Рис.5 Задавание параметра  autocrlf Задаю параметр safecrlf (рис.6).![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.007.png)
+Рис.5 Задавание параметра  autocrlf Задаю параметр safecrlf (рис.6).
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.007.png)
 
 Рис.6 Задавание параметра safecrlf
 
@@ -135,13 +139,14 @@ header-includes:
 
 Для последующей идентификации пользователя на сервере репозиториев необходимо сгенерировать пару ключей (приватный и открытый). Для этого использую команду «ssh-keygen -C “Bogdan Solovjev <<bogdan034@outlook.com>>”». Коюч автоматически сохраняется в каталоге ~/.ssh/.
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.008.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.008.png)
 
-Рис.7 Создание SSH-ключа Копирую открытый ключ из директории ~/.ssh/![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.009.png)
+Рис.7 Создание SSH-ключа Копирую открытый ключ из директории ~/.ssh/
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.009.png)
 
 Рис.8 Копирование открытого ключа Вставляю этот ключ в специальное поле «Key»
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.010.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.010.png)
 
 Рис.9 Добавление открытого ключа в GitHub
 
@@ -149,7 +154,7 @@ header-includes:
 
 С помощью команды «mkdir -p ~/work/study/2023-2024/"Архитектура компьютера"» создаю структурированное рабочее пространство (рис.10).
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.011.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.011.png)
 
 Рис.10 Создание директорий
 
@@ -163,7 +168,7 @@ header-includes:
 
 Перехожу  каталог курса с помощью команды «cd ~/work/study/2023-                     2024/”Архитектура компьютера”». Потом клонирую созданный репозиторий командой «git clone –recursive <gut@hub.com>:bmsolovjev/study\_2023-2024\_arch-pc.git» (рис.12)
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.013.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.013.png)
 
 Рис.12 Переход в каталог и клонирование каталога
 
@@ -173,23 +178,23 @@ header-includes:
 
 Необходимо удалить файл package.json, для этого я перехожу в директорию study\_2023-2024\_arch-pc и использую команду «rm packege.json» (рис.13)
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.014.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.014.png)
 
 Рис.13 Переход в каталог и удаление файла Создаю необходимый каталог (рис.14)
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.015.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.015.png)
 
 Рис.14 Создание каталога
 
 Отправляю данные на сервер командой «git add», потом сохраняю изменения командой «git commit -am» (рис.15)
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.016.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.016.png)
 
 Рис.15 Отправление и сохранение данных  на сервере GitHub
 
 Отправление изменений в центральный репозиторий командой «git push»(рис.16)
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.017.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.017.png)
 
 Рис.16
 
@@ -198,25 +203,25 @@ header-includes:
 
 лабораторной работе. 
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.018.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.018.png)
 
 Рис.17 Создание отчёта
 
 2. Так как я делаю отчёты не на виртуальной машине, мне будет проще вручную скопировать отчёты по лабораторным работам в каталог GitHub. (рис.18)
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.019.jpeg)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.019.jpeg)
 
 Рис.18 Перенос файла в каталог вручную
 
 3. Загрузка файла второй лабораторной работы на Github (рис.19)
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.020.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.020.png)
 
 Рис.19 Создание и отправка файла
 
 Сохраняю изменения командой «git commit -m “Add files”» (рис.20)
 
-![](Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.021.png)
+![](image/Aspose.Words.2a098f80-95d7-4dd5-97e8-af3468ee8f9a.021.png)
 
 Рис.20 Сохранение изменений
 
